@@ -1,0 +1,356 @@
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Inter(net) Italiam</title>
+		<link href="images/logo.jpg" rel="icon">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://www.gstatic.com/charts/loader.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/stile.css">
+	</head>
+	<body>
+		<header>
+			<nav class="menu" >
+				<ul class="menu_list" id="menu_list">
+					<li><a href="#slide1"> HOME </a></li>
+					<li><a href="#slide2"> IN EUROPA </a></li>
+					<li><a href="#slide3"> IN ITALIA </a></li>
+					<li><a href="#slide4"> I GIOVANI </a></li>
+					<li><a href="#slide5"> CONCLUSIONI </a></li>
+				</ul>
+			</nav>
+		</header>
+<!--HOME-->
+		<section class="parallax" id="slide1">
+		</section>
+		<section class="slideElement" id="intro">
+			<div class="text">
+				<h2> INTRODUZIONE </h2>
+				<h3> Che cosa è Internet </h3>
+				<p> 
+					Internet è una rete ad accesso pubblico che connette vari dispositivi o terminali in tutto il mondo. 
+					Dalla sua nascita, esso rappresenta il principale mezzo di comunicazione di massa. L'avvento e la diffusione di Internet e dei suoi servizi hanno rappresentato una vera e propria rivoluzione tecnologica e socio-culturale dagli inizi degli anni novanta (assieme ad altre invenzioni come i telefoni cellulari e il GPS) nonché uno dei motori dello sviluppo economico mondiale nell'ambito dell'Information and Communication Technology (ICT).
+				</p>
+				<h3>Come è arrivato in Italia</h3>
+				<p>
+					L'Italia fu il terzo paese in Europa a stabilire una connessione ad Internet dopo Inghilterra e Norvegia, grazie ai finanziamenti del dipartimento di Difesa degli Stati Uniti. La connessione fu fatta partire dall'Università di Pisa, in cui si trovava uno dei gruppo di ricerca fra i più importanti in Europa. La connessione partì il 30 aprile 1986, passava da Piana del Fucino in Abruzzo dove si collegava satellitarmente con gli Stati Uniti.
+					<br/>
+					<br/>
+				</p>
+			</div>
+			<img id="immagine1" src="images/imm.png">
+			<div class="text">
+				<p>
+					<br/>
+					In questo sito ci proponiamo di esaminare il livello di diffusione e di utilizzo di Internet in Italia nell'anno <b>2016</b> confrontandolo inizialmente con quello del resto d’Europa per poi analizzarlo nel dettaglio.
+				</p>
+			</div>
+		</section>
+<!--IN EUROPA-->
+		<section class="parallax" id="slide2"> </section>
+		<section class="slideElement">	
+			<div class="textsx">
+				<h2> L'ITALIA IN EUROPA: </h2>
+				<h3> L'uso d'Internet in Europa </h3>
+				<p> 
+					Prendendo in esame i dati ricavati da <b>Eurostat</b> sulla diffusione dell'uso di Internet in Europa, si confronta la situazione generale dei paesi europei con quella italiana. 
+				</p>
+			</div>
+			<div class="radioButton">
+				<label class="container">2008
+					<input type="radio" name="radioGeo" value="2008" checked>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">2014
+					<input type="radio" name="radioGeo" value="2014">
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">2016
+					<input type="radio" name="radioGeo" value="2016" checked>
+					<span class="checkmark"></span>
+				</label>
+			</div>
+			<div class="textsx">
+				<p id="paragrafoEu"> </p>
+			</div>
+			<div class="spacedx"> 
+				<div id="geoChart"></div>
+			</div>
+			<div class="text2">
+				<p> 
+					In conclusione da questa analisi si evince che l'Italia, nonostante la crescita verificatasi negli anni, risulta fra le nazioni con uno dei più alti tassi di <b> analfabetismo digitale </b> in Europa. Infatti meno della metà degli italiani ha competenze digitali di base o minime a discapito della media europea del quasi <b> 60% </b>. Tra questi poco meno del <b> 30% </b> ha competenze leggermente superiori (<a class="link" href="https://www.ilfattoquotidiano.it/2016/01/18/analfabetismo-digitale-per-litalia-sono-gia-iniziati-i-minuti-di-recupero/2383759/">link</a>).
+					<br/>
+					<br/>
+				</p>
+			</div>
+
+<!--INDICI EUROPEI-->
+			<div class="text">
+				<br/>
+				<br/>
+				<h3> La digitalizzazione in Europa </h3>
+				<p>
+						Osservando gli indicatori di digitalizzazione forniti dal sito europeo che raccoglie informazioni e monitora il progresso digitale nell'UE (<a class="link" href="https://digital-agenda-data.eu/">link</a>), emergono le sostanziali differenze tra i vari stati costituenti. La situazione italiana è fra le più critiche di tutta Europa, posizionandosi al quart'ultimo posto, <b>25°</b> su 28 stati membri. Uno dei principali motivi è la bassa copertura della <a class="link" href="#radioButton3">Banda Larga</a>, accompagnata dall'alto tasso di popolazione che non fa uso regolare di Internet (il <b>37%</b>, circa un terzo del totale). Accompagnata da altre nazioni, si posiziona ben sotto la media europea e fa parte delle nazioni in fase di recupero.
+						<br/>
+						<br/>
+						Fra gli indicatori troviamo: 
+				</p>
+				<img id="immagine" src="images/mini.png">
+				<ul>
+					<li> <b>Connettività: </b> indica la copertura di Banda Larga e Ultra Larga negli stati europei; </li>
+					<li> <b>Capitale Umano: </b> indica l'insieme di competenze, conoscenze e abilità possedute da un individuo; </li>
+					<li><b>Tecnologia Digitale:</b> indica l'integrazione della digitalizzazione nelle aziende europee; </li>
+					<li><b>Servizi Pubblici Digitali:</b> indica la digitalizzazione di servizi quali: sanità, commercio e amministrazione pubblica.</li>
+				</ul>
+					
+				<br/>
+				<br/>
+			</div>		
+			<div id="radioButton4">
+					<label class="container">Connettività
+						<input type="radio" name="radiositEu" value="Connettività" checked>
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Capitale Umano
+						<input type="radio" name="radiositEu" value="Capitale Umano">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Tecnologia Digitale
+						<input type="radio" name="radiositEu" value="Tecnologia Digitale">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Servizi Pubblici Digitali
+						<input type="radio" name="radiositEu" value="Servizi Pubblici Digitali">
+						<span class="checkmark"></span>
+					</label>
+			</div>
+			<div class="space"> 
+				<div id="situaEu"></div>
+			</div>
+			<div class="text">
+				<p>
+					Il motivo per cui l'Italia si classifica al <b>27° posto</b> nella classifica riguardante la "<b>Connettività</b>" va ricercato nella poca disponibilità della "<b>Banda Ultra-Larga</b>" nonostante la diffusione della "<b>Banda Larga</b>". Questo si può ricondurre al fatto che il progetto per la diffusione della <b> Fibra </b> è stato approvato dal Governo Italiano solo recentemente, nel 2015, prevendone la fine nel 2020 (<a class="link" href="http://bandaultralarga.italia.it/piano-bul/strategia/"> link </a>).
+					<br/>
+					Per quanto riguarda il "<b>Capitale Umano</b>", la situazione in Italia è migliorata negli ultimi anni, essendo passati al <b>24° posto</b>, ma rappresenta ancora un problema. Infatti, l'Italia non può sperare di beneficiare dall'economia digitale fin tanto che <b>1/3</b> della sua popolazione si trattiene dall'usare Internet regolarmente, e circa il <b>30%</b> degli utenti regolari non dispone delle conoscenze di base.
+				</p>
+			</div>
+
+
+<!--COMPETENZE DIGITALI-->
+				<div class="radioButton">
+					<label class="container">2015
+						<input type="radio" name="radioDig" value="2015" checked>
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">2016
+						<input type="radio" name="radioDig" value="2016" checked>
+						<span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="space"> 
+					<div id="compdig"></div>
+				</div>
+				<div class="text">
+					<p>
+						Nonostante il lieve miglioramento della percentuale di individui con competenze digitali di base o superiori dal 2015 al 2016, la situazione della penisola rimane critica.
+						<br/> 
+						Le cause principali di questo <b>analfabetismo digitale</b> si possono ritrovare in molti fattori: la scarsa quantità di persone con un livello di istruzione superiore alla terza media (circa il <b>42%</b>), la ancora bassa percentuale di laureati in discipline scientifiche e tecnologiche e, infine, la cospicua parte di popolazione costituita da anziani.
+						<br/>
+						I dati sono stati ricavati dalla relazione 2016 della "<a class="link" href="https://ec.europa.eu/digital-single-market/en/news/desi-2016-country-profiles"><b>Digital Economy and Society</b></a>" riguardante l'Italia.
+					</p>
+				</div>
+
+<!--FIBRA IN EUROPA-->
+			
+			<div class="text">
+				<h3> La Fibra in Europa </h3>
+				<p>
+					Come già anticipato, la strategia introdotta dal Governo Italiano per la diffusione della Fibra su tutto il territorio è molto recente. L'Italia infatti si trova, ancora una volta, nella seconda metà della classifica, battuta, nella sua arretratezza, da solo altre nove nazioni.
+				</p>
+			</div>
+			<div class="space"> 
+				<div id="fibraEu"></div>
+			</div>
+			<div class="text">
+				<p>
+					Inoltre nella classifica di potenza della connessione Internet in Europa del 2016, l'Italia si posiziona al penultimo posto,superando solamente la Croazia (<a class="link" href="https://www.blitzquotidiano.it/foto-notizie/classifica-connessione-internet-europa-romania-1a-italia-2354511/">link</a>).
+				</p>
+			</div>
+		</section>
+<!-- IN ITALIA-->
+		<section class="parallax" id="slide3"> </section>
+		<section class="slideElement">
+			<div class="text">
+				<h2 class="titoli">INTERNET IN ITALIA:</h2>
+				<h3 class="subtitle" >A cosa è dovuta la sua arretratezza </h3>
+				<p>
+					Esaminando la sola situazione italiana sull'utilizzo della rete nel 2016, si è voluto evidenziare l'uso in generale della rete. In particolare analizzando la percentuale di persone che accedono a Internet ogni giorno, confrontata con le percentuali delle persone che accedono ad Internet almeno una volta a settimana e almeno una volta al mese su tutta la penisola.
+				</p>
+				<h3 id="titoloIta1"> Utilizzo di Internet in Italia secondo l'Istat </h3>
+			</div>
+			<div class="textdx">
+				<p>
+					Nel caso della totalità di uso della rete, si nota come la Lombardia sia al primo posto, seguita dalle altre regioni del Nord e del Centro Italia, questo fa emergere forti divari nell'accesso a Internet tra Nord e Sud.
+					Dai dati Istat affiora anche che circa la metà degli italiani si connette tutti i giorni, mentre è solo il <b>2% ca.</b> a connettersi almeno una volta al mese.
+				</p>
+			</div>
+			<div id="radioButton2">
+				<label class="container"> Totale
+					<input type="radio" name="radioGeoIta" value="totale" checked>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container"> Quotidianamente
+						<input type="radio" name="radioGeoIta" value="quotidianamente">
+						<span class="checkmark"></span>
+				</label>
+				<label class="container"> Almeno una volta alla settimana
+						<input type="radio" name="radioGeoIta" value="settimanalmente">
+						<span class="checkmark"></span>
+				</label>
+				<label class="container"> Almeno una volta al mese
+						<input type="radio" name="radioGeoIta" value="mensilmente">
+						<span class="checkmark"></span>
+				</label>
+			</div>
+			<div class="spacesx">
+				<div id="geoIta"></div>
+			</div>
+<!--GRAFICO BANDA INTERNET-->
+			<div class="text">
+				<p> 
+					Nel 2016 il numero di persone che hanno accesso a Internet da casa è <b> 39,211,518 </b> ovvero il <b> 65,6% </b> del totale della popolazione (<a class="link" href="http://www.internetlivestats.com/internet-users-by-country/">link</a>). Resta quindi di quasi un terzo la quota di persone che non hanno una connessione nella propria abitazione. Sul territorio italiano le differenze tra le regioni nell'accesso a Internet sono ancora notevoli, a vantaggio del Centro e del Nord. Le regioni con il minor tasso di diffusione della Banda Larga tra le famiglie sono Calabria e il Molise.
+					<br/>
+					<br/> 
+					Analizzando più nel dettaglio la percentuale di popolazione effettivamente collegata alla rete tramite una connessione a Banda Larga (questa comprendente anche la rete mobile di telefoni cellulari, e riportando a parte la sola rete fissa) risulta essere effettivamente la Lombardia ad avere la percentuale più alta di popolazione connessa, seguita a ruota da Veneto, Friuli-Venezia Giulia e Lazio. Per quanto riguarda la rete esclusivamente fissa, Lombardia e Lazio rimangono stabili, accompagnate dal Trentino-Alto Adige.
+				</p>
+			</div>
+			<div id="radioButton3">
+				<label class="container"> Banda Larga
+					<input type="radio" name="radioBanda" value="connessione a banda larga" checked>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container"> Fissa a Banda Larga
+					<input type="radio" name="radioBanda" value="connessione fissa a banda larga">
+					<span class="checkmark"></span>
+				</label>
+			</div>
+			<div class="space2">
+				<div id="conBanda"></div>
+			</div>
+			<div class="text">
+				<p> 
+					Grazie a questo grafico si può ipotizzare che una delle cause del divario di diffusione di Internet fra Nord e Sud Italia, sia la diversa distribuzione di connessione nelle abitazioni delle famiglie italiane. Questo però non vuol dire che sia la causa principale dell' <b> analfabetismo digitale </b> italiano. Da ulteriori dati Istat risulta che la maggior parte delle famiglie senza accesso ad Internet da casa addita la mancanza di competenze come la sua causa principale e quasi un quarto non considera Internet uno strumento utile e interessante (<a class="link" href="https://tg24.sky.it/cronaca/2017/12/21/internet-utilizzo-diffusione-italia-dati-istat.html">link</a>).
+				</p>
+			</div>
+<!--GRAFICO BARRE ORIZZONTALI-->
+			<div class="text2" >
+				<h2 class="titoli"> Ma come viene utilizzato internet in Italia?</h2>
+				<p>
+					Di seguito di mostra, come si diversifichi l'uso di Internet in Italia. Dal grafico si nota facilmente come la posta elettronica sia il servizio più utilizzato (<b>73%</b>), seguito da "Social Networking" con il <b> 58% </b>, "Consultazione enciclopedie" con il <b> 57% </b>, e "Consultazione riviste" e "Videogame" entrambe con il <b> 55% </b>. Gli italiani sembrano ancora riluttanti a fare uso di servizi quali la vendita di prodotti e il frequentare corsi online, che risultano avere una percentuale rispettivamente di <b> 9% </b> e <b> 6% </b>. 
+				</p>
+			</div>
+			<div class="spacetot">
+				<div id="utilizzo"></div>
+			</div>
+			<div class="text">
+				<p>
+					<br/>
+					<br/>
+					La così bassa percentuale di vendite online rispetto al resto d'Europa, dove operano circa 800 mila aziende, sembra essere legata a un ecosistema digitale poco sviluppato: infatti questi sistemi di Ecommerce sono più diffusi in paesi con alto tasso di ricerca e sviluppo ed elevate competenze, che come è emerso finora, non risultano essere tra le principali caratteristiche in Italia (<a class="link" href="https://www.insidemarketing.it/ecommerce-italia-cresce-vendita-online/?IM=noblock">link</a>).
+				</p>
+			</div>
+			<div  id="titoloIta2">
+					<h3>Vendite online nel 2016, da un anno a tre mesi prima</h3>
+					<p> Dati ISTAT 2016</p>
+			</div>
+			<div class="textsx">
+				<p>
+					Dallo studio svolto dall'Osservatorio eCommerce B2C  Netcomm del Politecnico di Milano, si ricava che le maggiori vendite online italiane si concentrano soprattutto sui settori del turismo, informatica-elettronica, abbigliamento ed editoria. Nonostante i settori siano vari e fonte redditizia, in Italia le aziende attive online raggiungono a malapena le 40000 unità, mostrando dunque un elevato potenziale inespresso e il conseguente rallentamento a digitalizzarsi (<a class="link" href="https://www.danea.it/blog/e-commerce-italia-dati-2016/">link</a>).
+					<br/>
+					<br/>
+				</p>
+			</div>
+			<div class="spacedx">
+				<div id="venditeIta"></div>
+			</div>
+		</section>
+<!--GIOVANI-->
+		<section class="parallax" id="slide4"> </section>
+		<section class="slideElement">
+			<div class="text">
+				<h2 class="titoli">CHI SONO GLI UTENTI DI INTERNET</h2>
+				<p>
+					Nell’uso di Internet l’età è ancora il principale fattore discriminante: sono i giovani i più assidui utenti, con la quasi totalità della fascia che vi accede tutti i giorni (<a class="link" href="http://www.meteoweb.eu/2016/12/internet-italiani-sempre-piu-connessi-giovani-testa/813409/">link</a>). 
+				</p>
+			</div>
+			<div class="space">
+				<div id="tabLine"></div>
+			</div>
+			<div class="text">
+				<p>
+					Come mostrato nel grafico, la crescita dell'uso di Internet fra i giovani nel corso degli anni è stata notevole. La fascia che ha presentato una maggiore crescita è quella dei giovani tra i 25 e i 34 anni, avanzando, dal 2014 al 2016, di quasi quattro punti in percentuale, passando da un <b>83,9%</b> a un <b>87,1%</b>. I minori, dai 15 ai 17 anni, salgono fino ad arrivare a essere i più connessi dei restanti, mentre sembra che gli appena maturi, essendo la fascia con più frequente cambio di persone, tentennino a seconda dell'anno in esame.
+					<br/>
+					<br/>
+					La distribuzione di uso di Internet nel corso degli anni rimane più o meno sulla stessa linea d'onda, ma si vede una buona crescita nell'uso giornaliero di Internet, dove per ogni fascia c'è una crescita che va dai 5 ai quasi 9 punti in percentuale. A data dicembre 2016, il comunicato <a class="link" href="http://www.audiweb.it/static/upload/porting/2017/02/Audiweb_CS_Diffusione_e_Internet_Audience_Dicembre_2016.pdf">Audiweb</a> mostra come il <b>63,2%</b> della popolazione italiana sopra i 6 anni si sia connesso a Internet negli ultimi 12 mesi, e i giovani di 18-24 anni e 25-34 anni siano coloro che spendono più tempo online nel giorno medio, con circa 2h e 25 minuti ciascuno. Ben il <b>21%</b> afferma di navigare esclusivamente da mobile, e la totalità afferma di preferire i contenuti di eCommerce, video e gaming online.
+				</p>
+			</div>
+<!-- GRAFICO COLONNE VERTICALI-->
+			<div class="radioButton">
+				<label class="container">2014
+					<input type="radio" name="radioAnno" value="2014" checked>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">2015
+					<input type="radio" name="radioAnno" value="2015">
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">2016
+					<input type="radio" name="radioAnno" value="2016">
+					<span class="checkmark"></span>
+				</label>
+			</div>
+			<div class="space">
+				<div id="classe"></div>
+			</div>
+			<div class="text">
+					<p>
+						I dati da mobile sono quelli che più attirano l'attenzione con una continua crecsita esponenziale, a discapito dei dati relativi all'uso del pc. Del <b>61,5%</b> di giovani tra i 18 e i 24 anni che usano Internet quotidianamente, ben l'<b>87,1%</b> dichiara di usare dispositivi mobili contro il <b>12.9%</b> che fa uso di pc. Nonostante questa preferenza, l'uso del computer non va a morire, decresce soltanto, venendo usato per lo più per materie più private e personali.
+					</p>
+				</div>
+		</section>
+<!--CONCLUSIONI-->
+		<section class="parallax" id="slide5"> </section>
+		<section class="slideElement">
+			<div class="text">
+					<img id="immagine2" src="images/imm1.png">
+					<h2>CONCLUSIONI</h2>
+					<p id="conclusioni">
+						Internet ha, e sta tutt'ora, rivoluzionando il nostro modo di vivere quotidiano, dallo scambio di informazioni, comunicazione, organizzazione di attività di varia natura a molto altro.
+						<br/>
+						Internet sta ormai diventando il principale motore della nostra economia. Nonostante l'Italia sia ai primi posti nel mondo sia per patrimonio culturale, sia per industrializzazione (seconda in Europa solo alla Germania), dai dati proposti si distingue l'incompetenza italiana nel campo delle tecnologie digitali, con ampia percentuale di persone completamente analfabete in questo campo. Le cause da ricercare sono tante, ma risaltano la mancanza di infrastrutture adatte allo scopo e delle basi richieste dagli utenti per un corretto utilizzo dei contenuti digitali.
+					</p>
+			</div>
+			
+		</section>
+		<footer>
+			<div id="about">
+				<div id="fonti">
+					<h3>FONTI:</h3>
+					<p>I dati elaborati sono stati ricavati dai seguenti siti:</p>
+					<ul>
+						<li><a href="https://www.istat.it/"> ISTAT </a></li>
+						<li><a href="http://ec.europa.eu/eurostat"> EUROSTAT </a></li>
+						<li><a href="https://digital-agenda-data.eu/">DIGITAL SINGLE MARKET</a></li>
+					</ul>
+				</div>
+				<div id="sviluppo">
+					<h3>SVILUPPO:</h3>
+					<p>© Sviluppato da <b>Sofia Montagna</b> (MAT. 544914), <b>Giulia Manfredi</b> (MAT. 545752) e <b>Martina Simonetti</b> (MAT. 551268) per l'esame di <b>Laboratorio e Progettazione Web</b> dell'anno accademico 2017/2018.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
